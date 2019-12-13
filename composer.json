@@ -1,6 +1,6 @@
 {
     "name": "idffoja/laravel-preset",
-    "description": "Laravel Preset with FomanticUI, Jquery, Vue, VeeValidate and Axios",
+    "description": "Laravel 6 Preset with FomanticUI, Jquery, Vue, VeeValidate and Axios",
     "keywords": ["laravel", "laravel-preset", "idffoja"],
     "license": "MIT",
     "authors": [
