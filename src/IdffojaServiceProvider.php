@@ -16,6 +16,8 @@ class IdffojaServiceProvider extends ServiceProvider
     {
         PresetCommand::macro('idffoja', function ($command) {
             Preset::install();
+
+            $command->info('Laravel Preset Installed Successfully.');
         });
     }
 }
