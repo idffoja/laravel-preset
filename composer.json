@@ -1,0 +1,25 @@
+{
+    "name": "idffoja/laravel-preset",
+    "description": "Laravel Preset with FomanticUI, Jquery, Vue, VeeValidate and Axios",
+    "keywords": ["laravel", "laravel-preset", "idffoja"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Dominic F. Foja",
+            "email": "idffoja@protonmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Idffoja\\LaravelPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Idffoja\\LaravelPreset\\IdffojaServiceProvider"
+            ]
+        }
+    }
+}
